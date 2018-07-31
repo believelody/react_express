@@ -1,0 +1,28 @@
+{
+  "name": "react_express",
+  "version": "1.0.0",
+  "description": "Boilerplate for React & Express",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/believelody/react_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/believelody/react_express/issues"
+  },
+  "homepage": "https://github.com/believelody/react_express#readme",
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3"
+  }
+}
